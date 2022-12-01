@@ -1,0 +1,3 @@
+-- Your SQL goes here
+ALTER TABLE org_projects
+ADD COLUMN PATH VARCHAR(200) NOT NULL DEFAULT '';
